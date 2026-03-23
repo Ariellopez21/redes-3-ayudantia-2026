@@ -36,13 +36,13 @@ Y tus notas se verían así:
 > arilopez@umag.cl
 
 > [!info] Asunto
-> Redes 2 - Lab N°X: Nombre
-> Ej: Redes 2 - Lab N°3 Ariel
+> Redes 3 - Lab N°X: Nombre
+> Ej: Redes 3 - Lab N°67 Ariel
 
 > [!info] Qué enviar
 > Depende la tarea, será un `.pkt` o un documento Word, un pdf, etc. 
 > Los archivos deben describirse de la misma forma que el asunto.
-> Ej: Redes 2 - Lab N°3 Ariel.pkt
+> Ej: Redes 3 - Lab N°67 Ariel.pkt
 
 ## Requisito
 
