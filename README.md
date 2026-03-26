@@ -24,9 +24,10 @@ Y tus notas se verían así:
 
 #fecha 18-03-2026
 
-| Laboratorio | ¿Hubo tarea? | Acerca de | Contenidos |
-| ----------- | ------------ | --------- | ---------- |
-| -           | -            | -         | -          |
+| Laboratorio | ¿Hubo tarea? | Acerca de   | Contenidos |
+| ----------- | ------------ | ----------- | ---------- |
+| 26-03       | No           | Diagnóstico | CCNA II    |
+| 02-03       | -            | OSPF        | -          |
 
 
 ## Dónde, cómo y qué enviar

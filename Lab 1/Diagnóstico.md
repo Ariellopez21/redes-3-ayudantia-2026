@@ -6,11 +6,11 @@
 ---
 Recordando como armar una red con contenidos CCNA II.
 Checklist:
-- [ ] VLAN
-- [ ] Buenas prácticas (VLAN admin/native/consumo)
-- [ ] SSH
-- [ ] InterVLAN Routing
-- [ ] DHCP
+- [x] VLAN
+- [x] Buenas prácticas (VLAN admin/native/consumo)
+- [x] SSH
+- [x] InterVLAN Routing
+- [x] DHCP
 - [ ] EtherChannel
 - [ ] OSPF
 - [ ] FHRP
@@ -93,12 +93,12 @@ Configurar ssh:
 ```cli
 hostname S2-ADMIN
 ip domain-name www.umag.cl
-crypto key generate rsa
+crypto key generate rsa // 1024
 ```
 
 ```cli
 ip ssh version 2
-username admin secret admin
+username admin secret sudo
 line vty 0 4
 transport input ssh
 login local
@@ -116,7 +116,7 @@ Configurar PC:
 ---
 ## Configurar VLAN Nativa
 
-> [!warning] Revisa bien que la interfaz que estás configurando sea una troncal y no se acceso.
+> [!warning] Revisa bien que la interfaz que estás configurando sea una troncal y no de acceso.
 
 Para seguridad:
 - Crear la vlan (como una que no se usará)
@@ -132,8 +132,20 @@ exit
 interface g0/1
 switchport mode trunk
 switchport trunk native vlan 99
-switchport trunk allowed vlan 99
+no switchport trunk allowed vlan 99
 ```
+
+> [!NOTE] VLAN nativa: existe pero no se utiliza activamente
+> La VLAN nativa en un enlace trunk 802.1Q es aquella cuyos frames se transmiten sin etiqueta (untagged).
+>
+> Por motivos de seguridad, se recomienda:
+> - Cambiar la VLAN nativa por defecto (VLAN 1) a otra VLAN (ej: VLAN 99)
+> - No asignar hosts ni tráfico de usuario a esta VLAN
+>
+> Esto ayuda a mitigar ataques como VLAN hopping y evita mezclar tráfico no etiquetado con tráfico de datos real.
+>
+> Aunque la VLAN nativa puede transportar tráfico válido, en buenas prácticas se mantiene sin uso operativo.
+
 
 ---
 ## Configurar VLAN Administratva
@@ -163,12 +175,19 @@ switchport trunk allowed vlan 50
 ip default-gateway 192.168.50.1
 ```
 
+> [!NOTE] VLAN administrativa (Management VLAN)
+> Buenas prácticas:
+> - Usar una VLAN dedicada (no VLAN 1)
+> - Restringir el acceso solo a administradores
+> - No mezclar tráfico de usuarios con tráfico de gestión
+
+
 ---
 ## Configurar varias VLAN en un switch
 
 - Crear una vlan
 - Ingresar a los puertos que se necesitan cambiar con modo switchport access
-- Considerar que el switch debe conocer todas las vlans que pasan por ella
+- Considerar que el switch **debe conocer todas las vlans** que pasan por ella
 - Los trunk aun no entran acá
 
 La configuración está en el [[#Paso 1|Paso 1 de Conectar PC a Switch por SSH]].
@@ -185,7 +204,9 @@ exit
 ```
 
 ---
-## Router on a stick
+## InterVLAN Routing
+
+### Router-on-a-stick
 
 En el router es una rutina sencilla por cada vlan que se desea permitir el paso.
 
@@ -214,6 +235,46 @@ switchport mode trunk
 switchport trunk allowed vlan 10,20
 no shutdown
 exit
+```
+
+### Swich de capa 3 con SVIs
+
+**Paso 1**
+
+Crear las vlans necesarias `# vlan [id]`.
+
+**Paso 2**
+
+Crear SVIs
+
+```cli
+int vlan 10
+ ip address 192.168.10.1 255.255.255.0
+ no shutdown
+```
+
+Paso 3
+
+Activar el enrutamiento con `# ip routing`.
+
+Paso 4.1.
+
+Sí el Switch de capa 3 se está usando directamente conectado a los PCs se debe asignar puertos de acceso:
+
+```cli
+interface fa0/1
+ switchport mode access
+ switchport access vlan 10
+```
+
+Paso 4.2.
+
+Sí el Switch de capa 3 se está usando **como router** conectado a un switch, se debe asignar puerto troncal:
+
+```cli
+interface g0/1
+ no switchport
+ ip address 192.168.1.1 255.255.255.0
 ```
 
 ## DHCP
