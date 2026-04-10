@@ -15,6 +15,10 @@ Checklist:
 - [ ] OSPF
 - [ ] FHRP
 
+
+> [!todo] Checklist
+> Los contenidos marcados fue lo que alcanzamos a repasar en 1 clase completa!
+
 ---
 
 ## Conectar PC a Switch por SSH

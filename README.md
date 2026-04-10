@@ -7,7 +7,7 @@
 
 - Las clases de ayudantía y/o Laboratorio tendrán un valor del `X%` de la nota final del ramo.
 - Es decir, `X%` corresponde al profesor J.C., el `X%` corresponde a mí. 
-- Se debe entregar las tareas que se van dando clase a clase.
+- Se debe entregar las tareas y realizar las actividades, trabajos o exposiciones que se van dando clase a clase.
 - Tu nota en las ayudantías comienza con un `7.0` y **cada tarea no entregada** implica una resta porcentual a esta nota.
 
 > [!example] Ejemplo
@@ -22,15 +22,19 @@ Y tus notas se verían así:
 
 ## Actualización
 
-#fecha 18-03-2026
+#fecha 10-04-2026
 
-| Laboratorio | ¿Hubo tarea? | Acerca de        | Contenidos   |
-| ----------- | ------------ | ---------------- | ------------ |
-| 26-03       | No           | Diagnóstico      | CCNA II      |
-| 02-03       | Si           | OSPF             | Módulo 1 y 2 |
-| 09-04       | -            | ACL              | -            |
-| 16-04       | -            | Seguridad de Red | -            |
+| Laboratorio | ¿Hubo tarea?          | Acerca de        | Contenidos   | Revisar                                                                     |
+| ----------- | --------------------- | ---------------- | ------------ | --------------------------------------------------------------------------- |
+| 26-03       | No                    | Diagnóstico      | CCNA II      | -                                                                           |
+| 02-03       | Si                    | OSPF             | Módulo 1 y 2 | [[Lab 2/Tarea\|Tarea Lab 2]]                                                |
+| 09-04       | Si                    | ACL              | Módulo 5     | [[Lab 3/Tarea\|Tarea Lab 3]]                                                |
+| 16-04       | Si (Clase expositiva) | Seguridad de Red | Módulo 3     | [[Módulo 3 y tarea#Pauta de Evaluación - Exposición en Grupos\|Exposición]] |
 
+> [!NOTE] Tareas futuras
+> - NAT
+> - CDP-NTP
+> - VPN
 
 ## Dónde, cómo y qué enviar
 
@@ -49,7 +53,7 @@ Y tus notas se verían así:
 
 ## Requisito
 
-Al final del curso, hay un **Examen Práctico Final**, para poder dar dicho examen, es necesario haber entregado con éxito todas las tareas asignadas ([[#Actualización|ver actualización]]).
+Al final del curso, hay un **Examen Práctico Final**, para poder dar dicho examen, es necesario haber realizado con éxito todas las tareas asignadas ([[#Actualización|ver actualización]]).
 
 # Sobre los apuntes
 

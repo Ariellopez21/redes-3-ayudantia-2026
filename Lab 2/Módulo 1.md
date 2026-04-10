@@ -6,7 +6,7 @@ En este módulo se verán conceptos de OSPFv2 de área única de forma específi
 
 ---
 
-## Contenidos:
+## Contenidos
 
 - [[01 Características y funciones]]
 - [[02 Paquetes OSPF]]
