@@ -112,13 +112,13 @@ Los roles sugeridos, pensados para ser versátiles y aplicables a todos los tema
 
 | Criterio                | Descripción                                                                             | Puntaje Máximo | Puntaje Obtenido |
 | ----------------------- | --------------------------------------------------------------------------------------- | :------------: | :--------------: |
-| Manejo del conocimiento | Dominio del tema, claridad conceptual y precisión en la información                     |       7        |                  |
-| Asistencia              | El grupo se presenta completo en la fecha asignada para la realización de la actividad. |       7        |                  |
-| Defensa ante preguntas  | Capacidad de responder correctamente y argumentar ante preguntas                        |       7        |                  |
-| Cumplimiento del tiempo | Exposición dentro del rango de 10 a 15 minutos                                          |       7        |                  |
-| Autoevaluación de pares | Evaluación interna del grupo respecto al desempeño                                      |       7        |                  |
-| Preguntas realizadas    | El grupo realiza al menos 1 pregunta por exposición                                     |       7        |                  |
-| Respeto de roles        | Cumplimiento de los roles asignados durante la actividad                                |       7        |                  |
-| **Total**               | -                                                                                       |                |                  |
+| Manejo del conocimiento | Dominio del tema, claridad conceptual y precisión en la información                     |      30%       |                  |
+| Asistencia              | El grupo se presenta completo en la fecha asignada para la realización de la actividad. |       5%       |                  |
+| Defensa ante preguntas  | Capacidad de responder correctamente y argumentar ante preguntas                        |      25%       |                  |
+| Cumplimiento del tiempo | Exposición dentro del rango de 10 a 15 minutos                                          |       5%       |                  |
+| Autoevaluación de pares | Evaluación interna del grupo respecto al desempeño                                      |      10%       |                  |
+| Preguntas realizadas    | El grupo realiza al menos 1 pregunta por exposición                                     |      15%       |                  |
+| Respeto de roles        | Cumplimiento de los roles asignados durante la actividad                                |      10%       |                  |
+| **Total**               | -                                                                                       |    **100%**    |                  |
 
 
