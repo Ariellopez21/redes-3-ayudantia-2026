@@ -34,7 +34,7 @@ Cada bloque se asigna a un grupo de estudiantes (**designado en clases**), que d
 
 ## Designación de Temas
 
-**Grupo 1**  
+###### **Grupo 1**  
 
 Este grupo trabajará con los temas 
 
@@ -47,7 +47,7 @@ Este grupo trabajará con los temas
 
 ---
 
-**Grupo 2**  
+###### **Grupo 2**  
 
 Este grupo trabajará con los temas 
 
@@ -60,7 +60,7 @@ Este grupo trabajará con los temas
 
 ---
 
-**Grupo 3** 
+###### **Grupo 3** 
 
 Este grupo trabajará con los temas 
 
