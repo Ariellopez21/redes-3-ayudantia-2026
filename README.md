@@ -22,17 +22,17 @@ Y tus notas se verían así:
 
 ## Actualización
 
-#fecha 10-04-2026
+#fecha 16-04-2026
 
 | Laboratorio | ¿Hubo tarea?          | Acerca de        | Contenidos   | Revisar                                                                     |
 | ----------- | --------------------- | ---------------- | ------------ | --------------------------------------------------------------------------- |
 | 26-03       | No                    | Diagnóstico      | CCNA II      | -                                                                           |
 | 02-03       | Si                    | OSPF             | Módulo 1 y 2 | [[Lab 2/Tarea\|Tarea Lab 2]]                                                |
 | 09-04       | Si                    | ACL              | Módulo 5     | [[Lab 3/Tarea\|Tarea Lab 3]]                                                |
-| 16-04       | Si (Clase expositiva) | Seguridad de Red | Módulo 3     | [[Módulo 3 y tarea#Pauta de Evaluación - Exposición en Grupos\|Exposición]] |
+| 16-04       | Si                    | NAT              | Módulo 6     | [[Lab 5/Tarea\|Tarea Lab 5]]                                                |
+| 23-04       | Si (Clase expositiva) | Seguridad de Red | Módulo 3     | [[Módulo 3 y tarea#Pauta de Evaluación - Exposición en Grupos\|Exposición]] |
 
 > [!NOTE] Tareas futuras
-> - NAT
 > - CDP-NTP
 > - VPN
 
