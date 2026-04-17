@@ -11,6 +11,10 @@ En este módulo se verán conceptos a grandes rasgos de **Listas de Control de A
 - En esta ocasión, no tuve tiempo de prepararles los contenidos como corresponde 😭 lo siento!!!
 - Sin embargo, a continuación están todas las configuraciones que probamos en la clase de este módulo, además, en [[Presentación dinámica|este archivo]] se tiene una serie de dibujos realizados para los contenidos de la clase práctica presente, lo que significa que cada serie de dibujos está relacionada con lo visto en clases.
 
+> [!NOTE] Tarea
+> [[Lab 3/Tarea|Ingresa a la tarea del Lab 3 a través de esta nota.]]
+
+
 ## ACL estándar
 ### Control de acceso a red
 

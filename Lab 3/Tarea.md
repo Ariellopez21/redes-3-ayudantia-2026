@@ -1,4 +1,5 @@
-# Lab 3 - Tarea
+# Tarea - Lab 3
+
 Implementar la siguiente red y enrutar redes:
 
 > [!example] Red de ejemplo sencilla para ACL

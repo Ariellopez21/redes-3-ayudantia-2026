@@ -15,3 +15,7 @@ En este módulo se verán conceptos de NAT de forma específica. Y haremos imple
 - [[05 NAT dinámico]]
 - [[06 PAT]]
 - [[07 NAT64 (IPv6)]]
+
+
+> [!NOTE] Tarea
+> [[Lab 5/Tarea|Ingresa a la tarea del Lab 6 a través de esta nota.]]

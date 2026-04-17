@@ -1,4 +1,4 @@
-# Lab 2 - Tarea
+# Tarea - Lab 2
 
 Hacer una red simple  `192.168.1.0/24` con 4 routers y 1 switch.
 Se debe configurar:

@@ -31,8 +31,8 @@ Para que NAT funcione correctamente, el router debe identificar:
 #### Interfaz interna
 
 ```cli
-interface g0/1  
- ip address 192.168.10.1 255.255.255.0  
+interface [interface]  
+ ip address [ipv4]
  ip nat inside
 ```
 

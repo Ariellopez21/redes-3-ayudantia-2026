@@ -1,6 +1,3 @@
-```cli
-
-```
 ## PAT (NAT con sobrecarga) - configuración  
   
 Escenario:  
@@ -53,11 +50,11 @@ interface s0/1/0
 ### Activación de PAT (sobrecarga)
 
 ```cli
-ip nat inside source list 10 interface s0/1/0 overload
+ip nat inside source list 10 interface [int_public]  overload
 ```
 
 - **list 10**: ACL que define las direcciones internas.
-- **interface s0/1/0**: IP pública utilizada.
+- **[int_public]**: IP pública utilizada.
 - **overload**: habilita PAT (multiplexación por puertos).
 
 > [!info] Comportamiento  
