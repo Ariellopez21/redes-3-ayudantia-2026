@@ -1,4 +1,4 @@
-# Tarea - Lab 6
+# Tarea - Lab 5
 
 Implementar la red ilustrada en [[#Parte 1]], escalarla tal como indica [[#Parte 2]] y seguir las especificaciones dadas de cada implementación.
 

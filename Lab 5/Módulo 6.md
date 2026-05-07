@@ -18,4 +18,4 @@ En este módulo se verán conceptos de NAT de forma específica. Y haremos imple
 
 
 > [!NOTE] Tarea
-> [[Lab 5/Tarea|Ingresa a la tarea del Lab 6 a través de esta nota.]]
+> [[Lab 5/Tarea|Ingresa a la tarea del Lab 5 a través de esta nota.]]

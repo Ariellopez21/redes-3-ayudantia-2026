@@ -22,19 +22,36 @@ Y tus notas se verían así:
 
 ## Actualización
 
-#fecha 16-04-2026
+#fecha 28-04-2026
 
-| Laboratorio | ¿Hubo tarea?          | Acerca de        | Contenidos   | Revisar                                                                     |
-| ----------- | --------------------- | ---------------- | ------------ | --------------------------------------------------------------------------- |
-| 26-03       | No                    | Diagnóstico      | CCNA II      | -                                                                           |
-| 02-03       | Si                    | OSPF             | Módulo 1 y 2 | [[Lab 2/Tarea\|Tarea Lab 2]]                                                |
-| 09-04       | Si                    | ACL              | Módulo 5     | [[Lab 3/Tarea\|Tarea Lab 3]]                                                |
-| 16-04       | Si                    | NAT              | Módulo 6     | [[Lab 5/Tarea\|Tarea Lab 5]]                                                |
-| 23-04       | Si (Clase expositiva) | Seguridad de Red | Módulo 3     | [[Módulo 3 y tarea#Pauta de Evaluación - Exposición en Grupos\|Exposición]] |
+| Laboratorio | ¿Hubo tarea?          | Acerca de                | Contenidos   | Revisar                                                                     |
+| ----------- | --------------------- | ------------------------ | ------------ | --------------------------------------------------------------------------- |
+| 26-03       | No                    | Diagnóstico              | CCNA II      | -                                                                           |
+| 02-03       | Si                    | OSPF                     | Módulo 1 y 2 | [[Lab 2/Tarea\|Tarea Lab 2]]                                                |
+| 09-04       | Si                    | ACL                      | Módulo 5     | [[Lab 3/Tarea\|Tarea Lab 3]]                                                |
+| 16-04       | Si                    | NAT                      | Módulo 6     | [[Lab 5/Tarea\|Tarea Lab 5]]                                                |
+| 23-04       | Si (Clase expositiva) | Seguridad de Red         | Módulo 3     | [[Módulo 3 y tarea#Pauta de Evaluación - Exposición en Grupos\|Exposición]] |
+| 30-04       | No?                   | VPN - IPSec              | Módulo 8     | -                                                                           |
+| -           | -                     | CDP-NTP                  | Módulo 10    | -                                                                           |
+| -           | -                     | Mí Examen Práctico Final | CCNA III     | -                                                                           |
 
-> [!NOTE] Tareas futuras
-> - CDP-NTP
-> - VPN
+> [!warning] Tope de entrega tareas
+> Las tareas de los laboratorios, salvo el laboratorio relacionado al "Mi Examen Práctico Final" deben ser entregadas como plazo máximo el día 04 junio a las 9:30 hrs.
+
+
+> [!success] Plazo de corrección
+> Las tareas de los laboratorios serán evaluadas y se permitirá un plazo de corrección entre las fechas del 04 de junio a las 9:40 hrs hasta el 14 de junio a las 23:59 hrs.
+> 
+> Esto, en el caso de que los laboratorios no estén desarrollados con los objetivos propuestos y se entregue la oportunidad de realizar las correcciones necesarias y optar al 7.0
+> 
+> La única excepción, corresponde al [[Módulo 3 y tarea|Laboratorio del módulo 3]], que no posee posibilidad de corrección en este plazo extraordinario.
+
+
+> [!info] Examen Práctico Final
+> Para optar a dar el *examen práctico final*, se debe contar con la entrega de todos los laboratorios dejados a lo largo de las clases hasta la fecha de **Tope de entrega de tareas**.
+>
+> El plazo máximo de entrega del examen práctico final es hasta el día 02 de julio a las 12:50 hrs.
+
 
 ## Dónde, cómo y qué enviar
 
