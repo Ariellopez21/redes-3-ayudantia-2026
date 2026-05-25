@@ -31,8 +31,8 @@ Y tus notas se verían así:
 | 09-04       | Si                    | ACL                      | Módulo 5     | [[Lab 3/Tarea\|Tarea Lab 3]]                                                |
 | 16-04       | Si                    | NAT                      | Módulo 6     | [[Lab 5/Tarea\|Tarea Lab 5]]                                                |
 | 23-04       | Si (Clase expositiva) | Seguridad de Red         | Módulo 3     | [[Módulo 3 y tarea#Pauta de Evaluación - Exposición en Grupos\|Exposición]] |
-| 30-04       | No?                   | VPN - IPSec              | Módulo 8     | -                                                                           |
-| -           | -                     | CDP-NTP                  | Módulo 10    | -                                                                           |
+| 07-05       | Si                    | VPN - IPSec              | Módulo 8     | [[Lab 6/Tarea\|Tarea Lab 6]]                                                |
+| 14-05       | -                     | CDP-NTP                  | Módulo 10    | -                                                                           |
 | -           | -                     | Mí Examen Práctico Final | CCNA III     | -                                                                           |
 
 > [!warning] Tope de entrega tareas
