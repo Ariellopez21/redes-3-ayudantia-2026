@@ -22,20 +22,20 @@ Y tus notas se verían así:
 
 ## Actualización
 
-#fecha 01-06-2026
+#fecha 02-06-2026
 
-| Laboratorio          | ¿Hubo tarea?          | Acerca de                | Contenidos   | Revisar                                                                     |
-| -------------------- | --------------------- | ------------------------ | ------------ | --------------------------------------------------------------------------- |
-| 26-03                | No                    | Diagnóstico              | CCNA II      | -                                                                           |
-| 02-03                | Si                    | OSPF                     | Módulo 1 y 2 | [[Lab 2/Tarea\|Tarea Lab 2]]                                                |
-| 09-04                | Si                    | ACL                      | Módulo 5     | [[Lab 3/Tarea\|Tarea Lab 3]]                                                |
-| 16-04                | Si                    | NAT                      | Módulo 6     | [[Lab 5/Tarea\|Tarea Lab 5]]                                                |
-| 23-04                | Si (Clase expositiva) | Seguridad de Red         | Módulo 3     | [[Módulo 3 y tarea#Pauta de Evaluación - Exposición en Grupos\|Exposición]] |
-| 07-05                | Si                    | VPN - IPSec              | Módulo 8     | [[Lab 6/Tarea\|Tarea Lab 6]]                                                |
-| 04-06                | No                    | CDP-NTP                  | Módulo 10    | -                                                                           |
-| 04-06 hasta<br>02-07 | Si                    | Mí Examen Práctico Final | CCNA III     | -                                                                           |
+| Laboratorio          | ¿Hubo tarea?          | Acerca de                | Contenidos   | Revisar                                                                                                             |
+| -------------------- | --------------------- | ------------------------ | ------------ | ------------------------------------------------------------------------------------------------------------------- |
+| 26-03                | No                    | Diagnóstico              | CCNA II      | -                                                                                                                   |
+| 02-03                | Si                    | OSPF                     | Módulo 1 y 2 | [[Lab 2/Tarea\|Tarea Lab 2]]                                                                                        |
+| 09-04                | Si                    | ACL                      | Módulo 5     | [[Lab 3/Tarea\|Tarea Lab 3]]                                                                                        |
+| 16-04                | Si                    | NAT                      | Módulo 6     | [[Lab 5/Tarea\|Tarea Lab 5]]                                                                                        |
+| 23-04                | Si (Clase expositiva) | Seguridad de Red         | Módulo 3     | [[Módulo 3 y tarea#Pauta de Evaluación - Exposición en Grupos\|Exposición]]                                         |
+| 07-05                | Si                    | VPN - IPSec              | Módulo 8     | [[Lab 6/Tarea\|Tarea Lab 6]]                                                                                        |
+| 04-06                | No                    | CDP-NTP                  | Módulo 10    | -                                                                                                                   |
+| 04-06 hasta<br>02-07 | Si                    | Mí Examen Práctico Final | CCNA I - III | [[red_empresarial_parte_1\|Chile]], [[red_empresarial_parte_2\|España]], [[red_empresarial_parte_3\|Transpacific]]. |
 
-> [!warning] Tope de entrega tareas
+> [!warning] Tope de entrega de tareas
 > Las tareas de los laboratorios, salvo el laboratorio relacionado al "Mi Examen Práctico Final" deben ser entregadas como plazo máximo el día 04 junio a las 9:30 hrs.
 
 
